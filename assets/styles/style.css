@@ -6,9 +6,16 @@
 body {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #343f4f;
+}
+
+h2 {
+  color: #fff;
+  padding: 10px 0;
+  font-size: 40px;
 }
 
 .wrapper {
@@ -64,7 +71,7 @@ i#next {
 .image-container .carousel {
   display: flex;
   height: 100%;
-  width: 98%;
+  width: 95%;
   align-items: center;
   transition: all 0.4s ease;
 }
@@ -75,4 +82,23 @@ i#next {
   width: 100%;
   border: 10px solid #fff;
   object-fit: cover;
+}
+
+@media (max-width: 770px){
+  .wrapper {
+    width: 90vw;
+  }
+
+  .image-container .carousel {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel img {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+  }
+  
 }
