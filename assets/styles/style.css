@@ -28,7 +28,6 @@ h2 {
   justify-content: center;
   position: relative;
   border-radius: 12px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .wrapper i.button {
@@ -40,7 +39,6 @@ h2 {
   background-color: #343f4f;
   border-radius: 50%;
   text-align: center;
-  /* align-items: center; */
   line-height: 36px;
   color: #fff;
   font-size: 15px;
@@ -84,7 +82,7 @@ i#next {
   object-fit: cover;
 }
 
-@media (max-width: 770px){
+@media (max-width: 770px) {
   .wrapper {
     width: 90vw;
   }
@@ -100,5 +98,4 @@ i#next {
     margin-right: auto;
     border: none;
   }
-  
 }
